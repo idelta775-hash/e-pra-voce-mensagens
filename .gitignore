@@ -1,0 +1,4 @@
+*_preview.png
+__pycache__/
+*.pyc
+*.log
