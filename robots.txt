@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://idelta775-hash.github.io/e-pra-voce-mensagens/sitemap.xml

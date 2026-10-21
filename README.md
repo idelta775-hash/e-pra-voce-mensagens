@@ -1,5 +1,9 @@
-# É Pra Você — Site público
+# É Pra Você — site público
 
-Marca pública editorial do projeto interno MENSAGENS_FOFAS_OS. Site independente, original e sem dados pessoais, credenciais, rastreamento ou dependência de contas sociais ainda não verificadas.
+Nova marca editorial do projeto interno MENSAGENS_FOFAS_OS, preservando o histórico Mensagens Fofas. Conteúdo autoral com a personagem Lumi e três mensagens iniciais. Sem dados pessoais, contas sociais inventadas, publicidade ou scripts pagos.
 
-Site esperado: https://idelta775-hash.github.io/e-pra-voce-mensagens/
+Site oficial verificado: https://idelta775-hash.github.io/e-pra-voce-mensagens/
+
+O endereço histórico https://idelta775-hash.github.io/mensagens-fofas-oficial/ redireciona para a nova marca.
+
+O repositório não inclui senhas, sessões, tokens ou mídias ainda não aprovadas.
