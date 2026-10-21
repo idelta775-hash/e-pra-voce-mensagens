@@ -10,7 +10,7 @@
 <meta property="og:description" content="Fé, carinho e esperança em mensagens originais feitas para compartilhar.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://idelta775-hash.github.io/e-pra-voce-mensagens/">
-<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+<link rel="stylesheet" href="style.css"><script src="momentos.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#mensagens">Ir para as mensagens</a>
@@ -37,6 +37,34 @@
 </section>
 <section class="quote" aria-label="Mensagem de acolhimento">
   <p>“Você não precisa carregar o mundo inteiro hoje. Um passo de cada vez também é coragem.”</p>
+</section>
+<section class="momento" id="seu-momento" aria-labelledby="momento-title">
+  <div class="momento-intro">
+    <div class="eyebrow">Um carinho que combina com o seu momento</div>
+    <h2 id="momento-title">De que mensagem você precisa hoje?</h2>
+    <p>Escolha um tema e um momento do dia. Lumi encontra uma mensagem original para ler, guardar ou compartilhar. Sem contas, sem coleta de respostas e sem notificações.</p>
+  </div>
+  <form id="momento-form" class="momento-form">
+    <div class="moment-field"><label for="moment-feeling">Escolha o tema</label><select id="moment-feeling" required>
+      <option value="paz">Um pouco de paz</option>
+      <option value="saudade">Saudade e lembranças</option>
+      <option value="esperanca">Esperança</option>
+      <option value="gratidao">Gratidão</option>
+      <option value="coragem">Coragem para continuar</option>
+      <option value="carinho">Carinho e amizade</option>
+    </select></div>
+    <div class="moment-field"><label for="moment-time">Momento</label><select id="moment-time" required>
+      <option value="manha">Bom dia</option><option value="tarde">Boa tarde</option><option value="noite">Boa noite</option>
+    </select></div>
+    <button type="submit" class="primary moment-submit">Encontrar minha mensagem <span aria-hidden="true">✦</span></button>
+  </form>
+  <div class="moment-result" id="moment-result" tabindex="-1" aria-live="polite" aria-atomic="true" hidden>
+    <div class="moment-label">É Pra Você · <span id="result-theme">Com carinho</span></div>
+    <p id="moment-text"></p>
+    <div class="moment-actions"><button type="button" id="moment-share">Compartilhar essa mensagem ↗</button>
+    <button type="button" id="moment-alternate">Ler outra versão</button></div>
+  </div>
+  <p class="moment-footnote">Uma mensagem é um começo. Se ela fez bem, leve esse cuidado para uma conversa ou um gesto real.</p>
 </section>
 <section class="messages" id="mensagens" aria-labelledby="messages-title">
   <div class="section-top"><div><div class="eyebrow">Três encontros para hoje</div><h2 id="messages-title">Tem uma mensagem esperando por você.</h2></div><span class="side-note">Conteúdo original · Compartilhe com carinho</span></div>
