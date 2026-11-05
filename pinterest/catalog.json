@@ -1,0 +1,101 @@
+{
+  "brand": "É Pra Você",
+  "pins": [
+    {
+      "id": "epv_pin_001",
+      "title": "A coragem de continuar | É Pra Você",
+      "description": "Mensagem original sobre coragem e recomeços. Salve esta reflexão para lembrar que passos pequenos também merecem respeito. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "A coragem de continuar: Tem dias em que continuar já é um gesto de coragem. Não diminua o tamanho desse passo.",
+      "image_path": "pinterest/epv_pin_001.jpg",
+      "theme": "coragem"
+    },
+    {
+      "id": "epv_pin_002",
+      "title": "Um lugar para a saudade | É Pra Você",
+      "description": "Uma reflexão delicada sobre saudade, lembranças e carinho. Compartilhe com quem guarda memórias bonitas. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Um lugar para a saudade: Nem toda saudade pede resposta. Algumas lembranças só querem um lugar gentil para descansar.",
+      "image_path": "pinterest/epv_pin_002.jpg",
+      "theme": "saudade"
+    },
+    {
+      "id": "epv_pin_003",
+      "title": "Não precisa resolver tudo hoje | É Pra Você",
+      "description": "Uma mensagem de serenidade para respirar, descansar e continuar com gentileza. Arte original É Pra Você. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Não precisa resolver tudo hoje: Você não precisa vencer o dia inteiro. Comece pelo próximo gesto possível, sem se cobrar perfeição.",
+      "image_path": "pinterest/epv_pin_003.jpg",
+      "theme": "paz"
+    },
+    {
+      "id": "epv_pin_004",
+      "title": "A esperança mora nos detalhes | É Pra Você",
+      "description": "Frase autoral sobre esperança e acolhimento. Uma arte para salvar, enviar e encontrar força nos gestos simples. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "A esperança mora nos detalhes: A esperança nem sempre faz barulho. Às vezes, ela chega quando alguém escolhe permanecer.",
+      "image_path": "pinterest/epv_pin_004.jpg",
+      "theme": "esperança"
+    },
+    {
+      "id": "epv_pin_005",
+      "title": "A oração do caminho | É Pra Você",
+      "description": "Mensagem evangélica original de oração e fé para o dia a dia, sem prometer resultados ou milagres. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "A oração do caminho: Uma oração sincera também cabe no meio da rotina: Deus, ajuda-me a fazer o bem que eu puder hoje.",
+      "image_path": "pinterest/epv_pin_005.jpg",
+      "theme": "fé"
+    },
+    {
+      "id": "epv_pin_006",
+      "title": "Um abraço atravessa a distância | É Pra Você",
+      "description": "Mensagem fofa original para amiga, família ou alguém especial. Uma lembrança de que carinho cabe em palavras simples. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Um abraço atravessa a distância: Uma mensagem inesperada pode ser o abraço que atravessa a distância e chega na hora certa.",
+      "image_path": "pinterest/epv_pin_006.jpg",
+      "theme": "carinho"
+    },
+    {
+      "id": "epv_pin_007",
+      "title": "Às vezes, paz é escutar | É Pra Você",
+      "description": "Reflexão original sobre ouvir com carinho, cuidar das relações e encontrar paz nos encontros. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Às vezes, paz é escutar: A paz também pode caber em uma conversa que não precisa terminar depressa.",
+      "image_path": "pinterest/epv_pin_007.jpg",
+      "theme": "paz"
+    },
+    {
+      "id": "epv_pin_008",
+      "title": "Carinho é atenção | É Pra Você",
+      "description": "Uma mensagem original sobre amor gentil e respeito nos relacionamentos, para guardar e compartilhar. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Carinho é atenção: Carinho se revela na atenção aos detalhes e na liberdade que damos ao outro para ser quem é.",
+      "image_path": "pinterest/epv_pin_008.jpg",
+      "theme": "amor"
+    },
+    {
+      "id": "epv_pin_009",
+      "title": "Devolva as perguntas ao descanso | É Pra Você",
+      "description": "Boa noite com uma mensagem original de serenidade e acolhimento. Salve para ler antes de dormir. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Devolva as perguntas ao descanso: Ao anoitecer, deixe para amanhã as perguntas que não couberam no dia. Seu descanso merece espaço.",
+      "image_path": "pinterest/epv_pin_009.jpg",
+      "theme": "boa noite"
+    },
+    {
+      "id": "epv_pin_010",
+      "title": "Recomeçar com gentileza | É Pra Você",
+      "description": "Mensagem motivacional sem pressão para quem quer recomeçar com calma. Reflexão original do É Pra Você. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Recomeçar com gentileza: Tente outra vez, mas com gentileza. Nenhum começo precisa vir acompanhado de cobrança.",
+      "image_path": "pinterest/epv_pin_010.jpg",
+      "theme": "recomeço"
+    },
+    {
+      "id": "epv_pin_011",
+      "title": "O que ainda floresce | É Pra Você",
+      "description": "Uma reflexão bonita e original sobre gratidão, sem negar os dias difíceis. Envie a alguém querido. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "O que ainda floresce: A gratidão não apaga o que foi difícil. Ela nos ajuda a reconhecer o que ainda floresce.",
+      "image_path": "pinterest/epv_pin_011.jpg",
+      "theme": "gratidão"
+    },
+    {
+      "id": "epv_pin_012",
+      "title": "Um bom dia possível | É Pra Você",
+      "description": "Bom dia com ternura e esperança. Uma mensagem curta e original para começar o dia de forma leve. Conheça nossas mensagens originais em: https://idelta775-hash.github.io/e-pra-voce-mensagens/",
+      "alt_text": "Um bom dia possível: Que seu bom dia encontre espaço para um gesto bonito, mesmo que pequeno.",
+      "image_path": "pinterest/epv_pin_012.jpg",
+      "theme": "bom dia"
+    }
+  ]
+}
