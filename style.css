@@ -44,3 +44,18 @@ footer{background:#121a38;color:#f8e2e4;text-align:center;padding:49px 22px}foot
 .moment-footnote{color:#786f7e;font-size:.82rem;line-height:1.5}
 .momento select:focus-visible,.momento button:focus-visible{outline:3px solid #b77bc7;outline-offset:2px}
 @media(max-width:620px){.momento{padding:55px 22px 30px}.momento-form{display:grid;grid-template-columns:1fr}.moment-result{padding:24px 20px}.moment-submit{width:100%;justify-content:center}}
+
+/* Lumi original video showcase: user-triggered playback only. */
+.featured-video{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,420px);align-items:center;gap:clamp(32px,6vw,100px);padding:90px max(24px,calc((100vw - 1180px)/2));background:linear-gradient(125deg,#fcf0f2 0%,#f1edff 100%)}
+.featured-video-copy h2{font-size:clamp(2.4rem,4.3vw,4.5rem);line-height:1.09;letter-spacing:-.055em;color:#292342;margin:18px 0 23px}
+.featured-video-copy>p{color:#5d5871;line-height:1.8;max-width:550px}
+.featured-video-copy .video-transcript{border-left:3px solid #b36f92;background:#ffffff80;padding:14px 19px;border-radius:0 14px 14px 0;font-family:Georgia,serif;font-size:1.08rem}
+.video-links{display:flex;gap:11px;flex-wrap:wrap;margin:24px 0}
+.video-links a{border:1px solid #b99ab7;padding:12px 17px;border-radius:40px;text-decoration:none;color:#46325a;background:#fff;font-weight:720;font-size:.87rem}
+.video-links a:first-child{background:#242044;color:#fff;border-color:#242044}
+.video-links a:focus-visible{outline:3px solid #a75e8a;outline-offset:3px}
+.featured-video-copy .video-footnote{font-size:.8rem;color:#767087}
+.video-frame{max-width:370px;width:100%;margin:auto;box-shadow:0 20px 55px #4b3b7940;border-radius:28px;background:#201736;overflow:hidden}
+.video-frame video{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:cover}
+@media(max-width:850px){.featured-video{grid-template-columns:1fr}.featured-video-copy{max-width:700px}.video-frame{margin-left:0}}
+@media(max-width:620px){.featured-video{padding:62px 22px 70px}.featured-video-copy h2{font-size:2.7rem}.video-frame{max-width:340px;margin:auto}}

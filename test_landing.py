@@ -16,7 +16,7 @@ with sync_playwright() as p:
                 "main_heading":"mensagem" in page.locator("h1").inner_text().lower(),
                 "css_loaded":page.locator("body").evaluate("(el)=>getComputedStyle(el).fontFamily.includes('Segoe')"),
                 "no_horizontal_overflow":page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth"),
-                "verified_youtube_link":page.locator("a[href='https://www.youtube.com/@epravocemensagens']").count()==1 and page.locator("a[href*='instagram.com'], a[href*='tiktok.com']").count()==0
+                "verified_youtube_link":page.locator("a[href='https://www.youtube.com/@epravocemensagens']").count()>=1 and page.locator("a[href*='instagram.com'], a[href*='tiktok.com']").count()==0
             }
             page.screenshot(path=str(base/(("desktop" if width>900 else "mobile")+"_preview.png")),full_page=True)
             checks.append(result)
