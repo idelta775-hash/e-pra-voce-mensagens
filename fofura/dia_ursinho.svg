@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+ <defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#24575b"/><stop offset=".55" stop-color="#7eac89"/><stop offset="1" stop-color="#f5d18a"/></linearGradient>
+ <radialGradient id="sun" cx=".76" cy=".23" r=".6"><stop offset="0" stop-color="#ffebbc" stop-opacity=".92"/><stop offset=".3" stop-color="#f5d18a" stop-opacity=".44"/><stop offset="1" stop-color="#24575b" stop-opacity="0"/></radialGradient>
+ <radialGradient id="fur" cx=".28" cy=".2" r=".9"><stop offset="0" stop-color="#ffebbc"/><stop offset=".54" stop-color="#f5d18a"/><stop offset="1" stop-color="#d7a068"/></radialGradient>
+ <radialGradient id="cream"><stop offset="0" stop-color="#fffdf4"/><stop offset=".68" stop-color="#ffecd6"/><stop offset="1" stop-color="#e8bbad"/></radialGradient>
+ <linearGradient id="earpink"><stop stop-color="#e9b5b7"/><stop offset="1" stop-color="#b76a8c"/></linearGradient>
+ <linearGradient id="sweater"><stop stop-color="#5f7772"/><stop offset=".4" stop-color="#af958b"/><stop offset=".8" stop-color="#7b777f"/><stop offset="1" stop-color="#b98676"/></linearGradient>
+ <linearGradient id="scarf"><stop stop-color="#f7b16d"/><stop offset=".28" stop-color="#a0aa7d"/><stop offset=".52" stop-color="#bf788b"/><stop offset=".74" stop-color="#d5a97c"/><stop offset="1" stop-color="#767f96"/></linearGradient>
+ <linearGradient id="cup"><stop stop-color="#ffe9bc"/><stop offset=".52" stop-color="#e7ad7e"/><stop offset="1" stop-color="#b77760"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#fff2ba"/><stop offset=".6" stop-color="#f2ca73"/><stop offset="1" stop-color="#c28f4f"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ad8675"/><stop offset="1" stop-color="#4c353f"/></linearGradient>
+ <linearGradient id="copy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161827" stop-opacity="0"/><stop offset=".23" stop-color="#161827" stop-opacity=".72"/><stop offset="1" stop-color="#111522" stop-opacity=".98"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur"/><feOffset in="blur" dy="7" result="off"/><feMerge><feMergeNode in="off"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="27"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+ </defs>
+ <rect width="1000" height="1500" rx="46" fill="url(#bg)"/>
+ <rect width="1000" height="1180" fill="url(#sun)"/>
+ <!-- atmosphere and foreground -->
+ <rect y="1020" width="1000" height="110" rx="11" fill="url(#floor)" opacity=".86"/>
+ <ellipse cx="500" cy="1036" rx="321" ry="68" fill="#16151e" opacity=".38" filter="url(#soft)"/>
+ <g opacity=".85"><circle cx="830" cy="352" r="88" fill="#fff4be" filter="url(#glow)"/>
+ <path d="M0 1012 Q207 864 439 1020 Q662 900 1000 1008 L1000 1110 0 1110Z" fill="#b2d0a9" opacity=".35"/>
+ <path d="M44 1000 Q211 870 386 1000" stroke="#dbe9bc" opacity=".5" stroke-width="9" fill="none"/>
+ <circle cx="200" cy="955" r="14" fill="#fff4bf"/><circle cx="213" cy="963" r="10" fill="#ffe68d"/></g>
+ <g opacity=".6" fill="#fff1b3">
+ <circle cx="101" cy="418" r="5"/><circle cx="193" cy="519" r="4"/><circle cx="837" cy="824" r="7"/><circle cx="793" cy="491" r="4"/><circle cx="127" cy="792" r="5"/>
+ </g>
+ <g filter="url(#shadow)"><circle cx="347" cy="558" r="79" fill="url(#fur)" stroke="#ba895a" stroke-width="7"/>
+ <circle cx="347" cy="559" r="45" fill="url(#earpink)"/>
+ <circle cx="650" cy="558" r="79" fill="url(#fur)" stroke="#ba895a" stroke-width="7"/>
+ <circle cx="650" cy="558" r="45" fill="url(#earpink)"/><ellipse cx="499" cy="955" rx="190" ry="225" fill="url(#fur)" stroke="#ae806e" stroke-width="5" filter="url(#shadow)"/>
+ <path d="M357 835 Q502 804 650 839 Q668 940 631 1053 Q510 1105 365 1054 Q320 957 357 835Z" fill="url(#sweater)" stroke="#b98d76" stroke-width="5"/>
+ <path d="M353 866 Q506 916 648 868" fill="none" stroke="#fff2d6" stroke-opacity=".36" stroke-width="14"/>
+ <path d="M365 914 Q504 960 642 911" fill="none" stroke="#886a76" stroke-opacity=".25" stroke-width="10"/>
+ <ellipse cx="382" cy="1041" rx="78" ry="70" fill="url(#fur)" stroke="#c09581" stroke-width="5"/>
+ <ellipse cx="622" cy="1041" rx="78" ry="70" fill="url(#fur)" stroke="#c09581" stroke-width="5"/>
+ <ellipse cx="382" cy="1041" rx="37" ry="26" fill="#ebbbab" opacity=".54"/>
+ <ellipse cx="622" cy="1041" rx="37" ry="26" fill="#ebbbab" opacity=".54"/><ellipse cx="503" cy="696" rx="206" ry="191" fill="url(#fur)" stroke="#b98958" stroke-width="7"/>
+ <ellipse cx="503" cy="739" rx="124" ry="95" fill="url(#cream)" opacity=".95"/><ellipse cx="423" cy="673" rx="33" ry="42" fill="#272132"/>
+ <ellipse cx="575" cy="673" rx="33" ry="42" fill="#272132"/>
+ <ellipse cx="412" cy="660" rx="11" ry="15" fill="#fff" opacity=".98"/>
+ <ellipse cx="566" cy="660" rx="11" ry="15" fill="#fff" opacity=".98"/>
+ <circle cx="436" cy="691" r="5" fill="#d6ac8a" opacity=".8"/>
+ <circle cx="586" cy="691" r="5" fill="#d6ac8a" opacity=".8"/>
+ <ellipse cx="394" cy="730" rx="35" ry="19" fill="#f58c9f" opacity=".44"/>
+ <ellipse cx="611" cy="730" rx="35" ry="19" fill="#f58c9f" opacity=".44"/>
+ <path d="M482 724 Q502 714 518 725 Q501 742 482 724Z" fill="#71525f"/>
+ <path d="M502 740 Q496 758 481 758 M502 740 Q507 759 525 755" stroke="#725461" stroke-width="5" stroke-linecap="round" fill="none"/><ellipse cx="386" cy="958" rx="70" ry="82" fill="url(#fur)" stroke="#ae8c75" stroke-width="4" transform="rotate(-23 386 958)"/>
+ <ellipse cx="623" cy="956" rx="70" ry="82" fill="url(#fur)" stroke="#ae8c75" stroke-width="4" transform="rotate(23 623 956)"/><path d="M359 820 Q499 867 649 815 L668 870 Q510 936 341 871Z" fill="url(#scarf)" stroke="#ffdeb9" stroke-width="5"/>
+ <path d="M572 866 Q641 852 680 893 L677 1055 Q633 1073 599 1050 L595 927Z" fill="url(#scarf)" stroke="#e6bcb2" stroke-width="4" opacity=".94"/>
+ <path d="M350 854 Q506 909 654 853" fill="none" stroke="#ffefcd" opacity=".52" stroke-width="11"/><path d="M518 1042 Q517 989 517 935" stroke="#568d4d" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M516 996 Q465 970 462 1008 Q494 1025 516 996" fill="#5ca35b"/>
+  <ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(0 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(45 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(90 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(135 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(180 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(225 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(270 516 952)"/><ellipse cx="516" cy="909" rx="22" ry="52" fill="#ffe28e" transform="rotate(315 516 952)"/>
+  <circle cx="516" cy="952" r="31" fill="#8b5538" stroke="#f8bd69" stroke-width="7"/></g>
+ <rect y="1060" width="1000" height="440" fill="url(#copy)"/>
+ <text x="500" y="145" text-anchor="middle" fill="#fff1b3" font-family="Segoe UI, sans-serif"
+ font-size="36" font-weight="700" letter-spacing="2.5">É PRA VOCÊ · MENSAGENS COM CARINHO</text>
+ <text x="500" y="245" text-anchor="middle" fill="#fff5df" font-family="Segoe UI, sans-serif" font-size="47"
+ font-weight="800" letter-spacing="1" paint-order="stroke" stroke="#533c47" stroke-width="2">TEM UM CARINHO PRA VOCÊ...</text>
+ <g fill="#fff4e9" font-family="Georgia,serif" font-weight="700" text-anchor="middle">
+  <text x="500" y="1187" font-size="51">Que hoje uma pequena alegria</text><text x="500" y="1250" font-size="50">encontre um lugar no seu coração.</text>
+ </g>
+ <path d="M175 1311 L825 1311" stroke="#fff1b3" stroke-width="3" opacity=".67"/>
+ <text x="500" y="1402" text-anchor="middle" fill="#fff1b3" font-family="Segoe UI, sans-serif" font-size="65" font-weight="800"
+ letter-spacing="1">BOM DIA!</text>
+ <text x="500" y="1462" text-anchor="middle" fill="#e7d7cb" opacity=".83" font-family="Segoe UI, sans-serif" font-size="23">É PRA VOCÊ · ORIGINAL</text>
+ </svg>
