@@ -28,3 +28,17 @@ document.querySelectorAll("button[data-copy]").forEach(function(button){
  });
 });
 })();
+
+
+/* V20 EDITORIAL FOOTER */
+(function(){
+  const footer=document.querySelector(".footer .container");
+  if(!footer)return;
+  const prefix=location.pathname.includes("/posts/")||location.pathname.includes("/temas/")?"../":"";
+  for(const pair of [["Sobre","sobre.html"],["Privacidade","privacidade.html"],
+   ["Transparência","transparencia.html"],["Parcerias","parcerias.html"],["RSS","feed.xml"]]){
+   if(footer.querySelector('a[href="'+prefix+pair[1]+'"]'))continue;
+   const link=document.createElement("a");link.textContent=pair[0];
+   link.href=prefix+pair[1];footer.appendChild(link);
+  }
+})();

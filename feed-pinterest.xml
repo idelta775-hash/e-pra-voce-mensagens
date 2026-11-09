@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>É Pra Você — Histórias originais ilustradas</title>
+    <link>https://idelta775-hash.github.io/e-pra-voce-mensagens/mensagens.html</link>
+    <description>Duas cenas autorais com carinho e família.</description>
+    <language>pt-BR</language>
+    <item>
+      <title>Um bilhetinho de carinho para sua tarde</title>
+      <link>https://idelta775-hash.github.io/e-pra-voce-mensagens/posts/tarde-fofura.html</link>
+      <guid>https://idelta775-hash.github.io/e-pra-voce-mensagens/posts/tarde-fofura.html</guid>
+      <description>Passei para te entregar um carinho: que sua tarde seja leve e seu coração fique quentinho.</description>
+      <pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
+      <media:content url="https://idelta775-hash.github.io/e-pra-voce-mensagens/premium/epv15_fofura.jpg" type="image/jpeg" medium="image" />
+      <media:description>Gatinho fictício leva uma pequena carta de carinho a uma senhora.</media:description>
+    </item>
+    <item>
+      <title>Uma casa vira lar quando a conquista encontra abraço</title>
+      <link>https://idelta775-hash.github.io/e-pra-voce-mensagens/posts/familia-lar.html</link>
+      <guid>https://idelta775-hash.github.io/e-pra-voce-mensagens/posts/familia-lar.html</guid>
+      <description>Uma chave abre uma porta. O amor de quem caminha junto transforma essa porta em lar.</description>
+      <pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
+      <media:content url="https://idelta775-hash.github.io/e-pra-voce-mensagens/premium/epv15_conquista.jpg" type="image/jpeg" medium="image" />
+      <media:description>Mãe e filha fictícias celebram juntas a conquista da casa.</media:description>
+    </item>
+  </channel>
+</rss>
