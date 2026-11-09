@@ -42,3 +42,22 @@ document.querySelectorAll("button[data-copy]").forEach(function(button){
    link.href=prefix+pair[1];footer.appendChild(link);
   }
 })();
+
+/* V21 VOLUNTARY NATIVE SHARE */
+(function(){
+ "use strict";
+ for(const link of document.querySelectorAll('a[data-epv-native="true"]')){
+  link.addEventListener("click",function(event){
+   if(typeof navigator.share!=="function")return; // fallback to WhatsApp
+   event.preventDefault();
+   const payload={
+    title:link.getAttribute("data-share-title")||"É Pra Você",
+    text:link.getAttribute("data-share-text")||"",
+    url:link.getAttribute("data-share-url")||location.href.split("?")[0]
+   };
+   navigator.share(payload).catch(function(error){
+    if(error && error.name!=="AbortError")window.open(link.href,"_blank","noopener");
+   });
+  });
+ }
+})();

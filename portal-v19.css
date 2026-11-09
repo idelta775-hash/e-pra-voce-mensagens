@@ -79,3 +79,12 @@ h1{font-size:clamp(36px,5vw,62px)}h2{font-size:clamp(25px,3vw,35px)}h3{font-size
 .hero{padding:34px 0}.hero h1{font-size:36px}.hero-images img{max-height:235px}.grid,.featured-grid,.related .grid{grid-template-columns:1fr}
 .story .cover>img{aspect-ratio:1.7}.cathead{padding:20px}.intro h1{font-size:37px}.prose{font-size:1.05rem}.prose blockquote{font-size:1.25rem}.browse,.featured,.posts{padding-bottom:22px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cover>img{transition:none}}
+
+/* V21 user-initiated Pinterest sharing; no tracking pixels */
+.share .epv-save-pinterest{background:#b22937;color:#fff}
+.share .epv-save-pinterest:hover{background:#8e1e2b}
+
+/* V21 optional native share, no cookies, no tracking */
+.share .epv-share-native{background:#375774;color:#fff}
+.share .epv-bluesky{background:#237ac2;color:#fff}
+@media(max-width:590px){.share a,.share button{min-height:40px;display:inline-flex;align-items:center}}
