@@ -1,0 +1,42 @@
+/* V27-DESIGN */
+:root{--ink:#272137;--berry:#a24968;--cream:#fffaf7;--line:#eddadf}
+.epv27 *{box-sizing:border-box}.epv27{max-width:1190px;margin:auto;padding:32px 24px 72px;color:var(--ink)}
+.epv27 h1{font:700 clamp(2.1rem,5vw,3.55rem)/1.13 Georgia,serif;letter-spacing:-.025em;margin:9px 0 15px}
+.epv27 h2{font:700 1.65rem/1.22 Georgia,serif;margin-top:0}
+.epv27 p{line-height:1.72}.epv27-eyebrow{font:700 12px/1.4 system-ui;letter-spacing:.14em;color:var(--berry)}
+.epv27-lead{max-width:820px;font-size:17px}
+.epv27-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:19px;margin:28px 0}
+.epv27-card{border:1px solid var(--line);background:#fff;border-radius:16px;overflow:hidden;min-width:0;box-shadow:0 8px 25px #3e294013}
+.epv27-card>a img{display:block;width:100%;aspect-ratio:2/3;object-fit:cover}
+.epv27-card .txt{padding:14px 16px 17px}
+.epv27-card h3{font:700 1.11rem/1.24 Georgia,serif;margin:5px 0}
+.epv27-card h3 a{color:var(--ink);text-decoration:none}
+.epv27-card .txt p{font-size:13px;line-height:1.5;margin:8px 0;color:#6e6171}
+.epv27-card .topic{font:700 11px system-ui;color:var(--berry);text-transform:uppercase;letter-spacing:.06em}
+.epv27-filters{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:26px 0}
+.epv27-filters label{display:grid;gap:4px;font:700 13px system-ui}
+.epv27-filters select,.epv27-filters input{height:43px;padding:8px 12px;border:1px solid #d9c6ce;border-radius:10px;min-width:200px;font:14px system-ui;background:#fff}
+.epv27-filters .search{min-width:min(330px,100%)}
+.epv27-note{background:#f9edef;border-radius:12px;padding:13px 17px;max-width:900px}
+.epv27-message-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:24px 0}
+.epv27-message{background:#fff;border:1px solid var(--line);border-radius:14px;padding:19px;min-width:0}
+.epv27-message .topic{font:700 11px system-ui;color:#a14c68;text-transform:uppercase}
+.epv27-message p{font:16px/1.62 Georgia,serif;min-height:100px;overflow-wrap:anywhere}
+.epv27-message button{padding:9px 13px;border-radius:10px;border:1px solid #d5a7b7;background:#fff;color:#833650;font-weight:700;cursor:pointer;min-height:41px}
+.epv27-detail{display:grid;grid-template-columns:minmax(0,405px) minmax(0,1fr);gap:38px;align-items:start;margin:25px 0 40px}
+.epv27-detail>figure{margin:0}.epv27-detail>figure img{width:100%;height:auto;border-radius:18px;box-shadow:0 18px 40px #51334d35}
+.epv27-detail figcaption{font:12px/1.6 system-ui;color:#6b606a}
+.epv27-quote{font:italic 1.37rem/1.55 Georgia,serif;background:#fbeced;border-left:4px solid #ac6681;border-radius:0 14px 14px 0;padding:17px;margin:22px 0}
+.epv27-actions{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}
+.epv27-actions a{font:700 13px/1.3 system-ui;color:#81334e;background:#fff;border:1px solid #e5bfcb;padding:12px;border-radius:10px;text-decoration:none}
+.epv27-source{font-size:12px!important;color:#655c65}
+.epv27-pagination{margin:20px 0;display:flex;gap:12px;align-items:center}
+.epv27-pagination button{border:1px solid #b88198;background:#fff;min-height:40px;border-radius:10px;padding:7px 13px;color:#7f344f}
+@media(max-width:900px){.epv27-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.epv27-message-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.epv27{padding:24px 16px 60px}.epv27-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.epv27-card .txt{padding:11px}.epv27-card h3{font-size:.98rem}.epv27-card .txt p{font-size:12px}.epv27-message-grid{grid-template-columns:1fr}.epv27-message p{min-height:0}
+.epv27-detail{grid-template-columns:1fr}.epv27-detail>figure{max-width:430px;margin:auto}.epv27-filters input,.epv27-filters select{min-width:0;width:100%}.epv27-filters label{width:100%}}
+
+/* V27 HOME CTA */
+.epv27-home-cta{max-width:1130px;margin:24px auto 34px;padding:28px;border:1px solid #ead3da;border-radius:22px;background:#fcf0ed}
+.epv27-home-cta h2{font:700 clamp(1.5rem,3.5vw,2.1rem)/1.22 Georgia,serif;margin:5px 0}
+.epv27-home-cta a{color:#853854;font-weight:700;text-underline-offset:4px}
