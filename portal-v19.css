@@ -88,3 +88,9 @@ h1{font-size:clamp(36px,5vw,62px)}h2{font-size:clamp(25px,3vw,35px)}h3{font-size
 .share .epv-share-native{background:#375774;color:#fff}
 .share .epv-bluesky{background:#237ac2;color:#fff}
 @media(max-width:590px){.share a,.share button{min-height:40px;display:inline-flex;align-items:center}}
+
+/* V24 photography source/rights disclosure */
+.v24-photo-credit{font:12px/1.65 'Segoe UI',system-ui,sans-serif;
+ color:#716471;text-align:center;max-width:550px;margin:-17px auto 29px}
+.v24-photo-credit a{color:#8f4564;text-underline-offset:3px}
+.story .cover img[src*="/v24_"]{object-position:center 33%}
