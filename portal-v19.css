@@ -94,3 +94,9 @@ h1{font-size:clamp(36px,5vw,62px)}h2{font-size:clamp(25px,3vw,35px)}h3{font-size
  color:#716471;text-align:center;max-width:550px;margin:-17px auto 29px}
 .v24-photo-credit a{color:#8f4564;text-underline-offset:3px}
 .story .cover img[src*="/v24_"]{object-position:center 33%}
+
+/* V25 source credits */
+.v25-photo-credit{font:12px/1.65 "Segoe UI",system-ui,sans-serif;
+ color:#716471;text-align:center;max-width:550px;margin:-17px auto 29px}
+.v25-photo-credit a{color:#8f4564;text-underline-offset:3px}
+.story .cover img[src*="v25_"]{object-position:center 30%}
