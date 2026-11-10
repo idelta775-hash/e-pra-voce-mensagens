@@ -1,0 +1,36 @@
+
+/* É Pra Você V26 — accessible single-video story. No analytics pixels. */
+.epv-reel-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,390px);
+ gap:clamp(22px,4vw,66px);align-items:start;padding:46px 0 62px}
+.epv-reel-copy{min-width:0}
+.epv-reel-copy h1{font-family:Georgia,serif;line-height:1.14;font-size:clamp(2.3rem,4.4vw,4.1rem);
+ letter-spacing:-.035em;max-width:770px;overflow-wrap:break-word}
+.epv-reel-copy>p{font:1rem/1.75 system-ui,sans-serif;max-width:690px}
+.epv-reel-copy h2{font:700 1.32rem/1.3 Georgia,serif;margin-top:32px}
+.epv-reel-copy blockquote{font:italic 1.18rem/1.56 Georgia,serif;max-width:560px;
+ border-left:4px solid #ba6581;margin:18px 0;padding:15px 22px;background:#fff2ee;
+ border-radius:0 14px 14px 0}
+.epv-reel-share{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0 30px}
+.epv-reel-share a{display:inline-flex;align-items:center;min-height:43px;padding:10px 16px;
+ border:1px solid #ebcbd2;border-radius:13px;background:#fff;font:600 13px/1.2 system-ui;
+ color:#8c385b;text-decoration:none}
+.epv-reel-share a:hover{background:#f9e4ea}
+.epv-reel-player{min-width:0;max-width:390px;margin:auto}
+.epv-reel-player video{display:block;width:100%;height:auto;max-height:77vh;aspect-ratio:9/16;
+ object-fit:contain;box-shadow:0 21px 55px #633e5840;border-radius:23px;background:#2e2731}
+.epv-reel-duration{font:12px/1.5 system-ui;color:#796873;text-align:center;margin-top:12px}
+.epv-reel-credit{font-size:13px!important;color:#665f67}
+.epv-reel-featured{display:flex;align-items:center;gap:22px;border:1px solid #efd3da;
+ border-radius:22px;background:#fff6f1;padding:18px 20px;margin:26px 0}
+.epv-reel-featured img{height:184px;width:104px;object-fit:cover;border-radius:13px;flex:none}
+.epv-reel-featured h2{font:700 1.42rem/1.25 Georgia,serif;margin:5px 0}
+.epv-reel-featured p{font:14px/1.6 system-ui;margin:7px 0}
+.epv-reel-featured a{font:700 14px/1.6 system-ui;color:#a34763;text-underline-offset:4px}
+.epv-reel-featured .eyebrow{font:700 11px/1.3 system-ui;color:#9f4765}
+@media(max-width:810px){.epv-reel-layout{grid-template-columns:minmax(0,1fr)}
+ .epv-reel-player{width:100%;max-width:360px}}
+@media(max-width:440px){.epv-reel-layout{padding:24px 0 43px}
+ .epv-reel-featured{gap:12px;padding:12px}.epv-reel-featured img{height:142px;width:82px}
+ .epv-reel-featured h2{font-size:1.12rem}
+ .epv-reel-featured p{font-size:12px}
+ .epv-reel-copy h1{font-size:2.25rem}}
