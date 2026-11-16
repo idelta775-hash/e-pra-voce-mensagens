@@ -34,3 +34,7 @@
  .epv-reel-featured h2{font-size:1.12rem}
  .epv-reel-featured p{font-size:12px}
  .epv-reel-copy h1{font-size:2.25rem}}
+
+/* V29 official YouTube link */
+.epv-reel-official{margin:15px 0 22px;padding:13px 15px;border-radius:12px;background:#f7ebef;font:14px/1.65 system-ui}
+.epv-reel-official a{color:#873950;font-weight:700;text-underline-offset:3px}
